@@ -18,7 +18,7 @@ const App = () => {
   return (
     <div className="max-w-screen-2xl overflow-x-hidden overflow-y-auto mx-auto w-full h-screen bg-zinc-300">
       <Navbar data={data} />
-      <div className="px-14 mx-auto mt-10 flex flex-wrap justify-center items-center gap-10">
+      <div className="px-8 mx-auto mt-10 flex flex-wrap justify-center items-center gap-10">
         {data.map((item, index) => (
           <Card
             key={index}
